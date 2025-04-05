@@ -124,10 +124,19 @@ body {
 }
 
 .inp{
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     background:rgba(28, 30, 58, 1);
     width: 60rem;
     border: none;
     border-radius: 25rem;
 }
-
+.inp:focus{
+    outline: none;
+    color: white;
+}
+.send{
+    padding: 0.4rem;
+    background: rgb(3, 0, 31);
+    border: none;
+    margin-left: 0.5rem;
+}
