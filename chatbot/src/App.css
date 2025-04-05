@@ -62,3 +62,20 @@ body {
   height: 2rem;
   padding-right: 1rem;
 }
+
+.query{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    padding: 1.5rem;
+    width: 25rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border:1px solid rgb(133, 133, 133);
+    color: white;
+
+}
+.msgicon{
+    padding-right: 1rem;
+}
