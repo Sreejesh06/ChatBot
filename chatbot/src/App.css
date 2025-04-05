@@ -47,10 +47,14 @@ body{
     display: flex;
     align-items: center;
 margin-bottom: 2.5rem;}
-.midbtn{
+.midBtn{
     background-color:#5a4bff;
     border: none;
     color: white;
     padding: 1.5rem;
     font-size: 1.5rem;
+}
+
+.addbtn{
+
 }
