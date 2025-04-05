@@ -65,7 +65,6 @@ body {
 
 .query{
     display: flex;
-    justify-content: center;
     align-items: center;
     background: transparent;
     padding: 1.5rem;
@@ -74,8 +73,26 @@ body {
     border-radius: 0.5rem;
     border:1px solid rgb(133, 133, 133);
     color: white;
+    
+
 
 }
-.msgicon{
-    padding-right: 1rem;
+.query>img{
+    margin-right: 1.25rem;
+    object-fit: cover;
+    height: 1.75rem;
+}
+
+.lowerSide{
+    padding: 2rem;
+    
+}
+.listItems{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+.listItemsImg{
+    margin: 1rem;
 }
