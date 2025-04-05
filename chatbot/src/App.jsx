@@ -77,7 +77,7 @@ function App() {
           </button>
 
           </div>
-          <p>Chatgpt model is been on Training so the answer wont be accurate</p>
+          <p>Chatgpt model is been on testing so the answer wont be accurate</p>
         </div>
       </div>
     </div>
