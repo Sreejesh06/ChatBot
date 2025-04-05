@@ -52,7 +52,7 @@ function App() {
       <div className="main">
         <div className="chats">
           <div className="chat">
-            <img src={usericon} alt="" />
+            <img className="chatImg" src={usericon} alt="" />
             <p className="txt">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
               incidunt inventore mollitia molestias voluptatibus sequi quisquam
@@ -60,11 +60,9 @@ function App() {
             </p>
           </div>
           <div className="chat">
-            <img src={gptImgLogo} alt="" />
+            <img className="chatImg" src={gptImgLogo} alt="" />
             <p className="txt">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-              incidunt inventore mollitia molestias voluptatibus sequi quisquam
-              sunt cum est vitae?
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis explicabo cupiditate harum architecto, dolorum sit illo natus doloribus quod fugiat excepturi totam labore ratione magnam adipisci sint minima est sequi, minus enim! Laudantium iusto suscipit quam corrupti nesciunt accusamus quo deserunt autem, officiis obcaecati. Aliquam voluptatem, amet eum incidunt exercitationem, ipsum iste natus vero nam nemo omnis labore consequatur. Nesciunt, iusto enim? Odit eveniet repellat maiores officia voluptates reprehenderit, autem inventore sint laudantium ullam dolore corporis non consectetur molestiae quos consequatur iure ipsam voluptatibus consequuntur aliquam commodi! Minus animi beatae consequuntur iure omnis, blanditiis, possimus ad quis error consectetur ipsam?
             </p>
           </div>
         </div>

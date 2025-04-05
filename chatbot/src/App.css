@@ -125,8 +125,14 @@ body {
     padding: 2rem 3rem;
     font-size: 1.2rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    
+}
+.chatImg{
+    margin-right: 1.5rem;
+    object-fit: cover;
+    height: 3rem;
+    border-radius: 50%; 
 }
 
 .chatFooter{
