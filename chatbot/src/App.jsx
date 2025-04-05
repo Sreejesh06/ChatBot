@@ -51,14 +51,21 @@ function App() {
       </div>
       <div className="main">
         <div className="chats">
-
           <div className="chat">
             <img src={usericon} alt="" />
-           <p className="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem incidunt inventore mollitia molestias voluptatibus sequi quisquam sunt cum est vitae?</p>
+            <p className="txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+              incidunt inventore mollitia molestias voluptatibus sequi quisquam
+              sunt cum est vitae?
+            </p>
           </div>
           <div className="chat">
             <img src={gptImgLogo} alt="" />
-           <p className="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem incidunt inventore mollitia molestias voluptatibus sequi quisquam sunt cum est vitae?</p>
+            <p className="txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+              incidunt inventore mollitia molestias voluptatibus sequi quisquam
+              sunt cum est vitae?
+            </p>
           </div>
         </div>
 
