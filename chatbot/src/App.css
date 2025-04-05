@@ -124,19 +124,16 @@ body {
 }
 
 .inp{
-    padding: 1.5rem 1rem;
+    padding: 0.5rem;
     background:rgba(28, 30, 58, 1);
-    width: 60rem;
-    border: none;
-    border-radius: 25rem;
+  
 }
-.inp:focus{
+
+.inp>input, .send{
+    background: transparent;
+    border: none;
+}
+inp:focus{
     outline: none;
     color: white;
-}
-.send{
-    padding: 0.4rem;
-    background: rgb(3, 0, 31);
-    border: none;
-    margin-left: 0.5rem;
 }

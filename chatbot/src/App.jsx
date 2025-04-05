@@ -70,10 +70,14 @@ function App() {
         </div>
 
         <div className="chatFooter">
-          <input className= "inp" type="text" placeholder="Send a Message..." />
+          <div className="inp">
+          <input  type="text" placeholder="Send a Message..." />
           <button className="send">
             <img src={sendbtn} alt="sedn" className="sendImg" />
           </button>
+
+          </div>
+          <p>Chatgpt model is been on Training so the answer wont be accurate</p>
         </div>
       </div>
     </div>
