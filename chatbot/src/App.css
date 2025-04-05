@@ -95,4 +95,11 @@ body {
 }
 .listItemsImg{
     margin: 1rem;
+    padding-right: 1rem;
+}
+.listItems:nth-child(1)>.listItemsImg{
+  margin-right: 0.5rem;
+}
+.listItems:nth-child(3)>.listItemsImg{
+  margin-right: 0.75rem;
 }
