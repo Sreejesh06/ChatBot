@@ -70,7 +70,7 @@ function App() {
         </div>
 
         <div className="chatFooter">
-          <input type="text" placeholder="Send a Message..." />
+          <input className= "inp" type="text" placeholder="Send a Message..." />
           <button className="send">
             <img src={sendbtn} alt="sedn" className="sendImg" />
           </button>
