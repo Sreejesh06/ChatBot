@@ -40,5 +40,17 @@ body{
 
 .upperSide{
     padding: 2rem;
-
+    border-bottom:  1px solid rgb(133, 133, 133) ;
+    height: 70%;
+}
+.upperSideTop{
+    display: flex;
+    align-items: center;
+margin-bottom: 2.5rem;}
+.midbtn{
+    background-color:#5a4bff;
+    border: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
 }
