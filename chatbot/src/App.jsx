@@ -1,0 +1,45 @@
+import "./App.css";
+import gptLogo from "./assets/chatgpt.svg";
+import addbtn from "./assets/addbtn.svg";
+function App() {
+  return (
+    <div className="App">
+      <div className="sidebar">
+        <div className="upperSide">
+          <div className="upperSideTop">
+            <img src={gptLogo} alt="logo" className="logo" />
+            <span className="brand">ChatGPT</span>
+          </div>
+          <button className="midBtn"><img src={} alt="" className="addbtn" />NewChat</button>
+          <div className="upperSideBottom">
+            <button className="query">What is Programming</button>
+            <button className="query">
+              <img src="" alt="" />
+              What is Programming
+            </button>
+          </div>
+        </div>
+
+        <div className="lowerSide">
+
+          <div className="listItems">
+            <img src={} alt="" className="listItemsImg" />
+            Home
+          </div>
+          <div className="listItems">
+            <img src={} alt="" className="listItemsImg" />
+Saved          </div>
+          <div className="listItems">
+            <img src={} alt="" className="listItemsImg" />
+            Upgrade
+          </div>
+        </div>
+      </div>
+      <div className="main">
+
+      </div>
+    </div>
+  );
+}
+
+export default App;
